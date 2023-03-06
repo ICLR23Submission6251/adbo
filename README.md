@@ -13,7 +13,7 @@ To run locally, build the docker images for master and worker nodes and invoke d
 ```bash
 docker build cp-node-async -t cp-node-async
 docker build cp-main-async -t cp-main-async
-docker container up
+docker compose up
 ```
 
 To change experiment settings, edit `cp-exp.env` with your wanted parameters. We explain their meanings as follows:
